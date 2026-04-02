@@ -1,5 +1,6 @@
 """Main entry point for A-Maze-ing."""
 
+print("A-Maze-ing project setup")
 
 def main() -> None:
     """Start the program."""

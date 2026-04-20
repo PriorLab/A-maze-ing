@@ -1,5 +1,3 @@
-
-
 #Maze width (number of cells) 
 WIDTH=20
 #Maze height

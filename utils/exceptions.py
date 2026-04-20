@@ -29,9 +29,13 @@ class ConfigFileNotFoundError(ConfigError):
 class ConfigSyntaxError(ConfigError):
     """Raised when a line in the config file has invalid syntax."""
     pass
+
+
 class ConfigMissingKeyError(ConfigError):
     """Raised when a mandatory key is missing from the config."""
     pass
+
+
 class ConfigValueError(ConfigError):
-    """Raised when a config value is invalid (wrong type, out of range, etc.)."""
+    """Raised when a conf. value is invalid."""
     pass
